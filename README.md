@@ -1,9 +1,18 @@
 ```
+"""
+예전에 이 github 에서 실습하려고 했는데,
+Django로 넘어감에 따라서 Django로 세팅을 바꾸었습니다.
+따라서 기존에 있던 boooooom 폴더를 삭제해야 합니다.
+# 2번 에서 내용이 추가됩니다
+rm -rf boooooom
+"""
+
 # 1. 기존 가상환경 종료
 deactivate
 
 # 2. 홈 디렉터리로 이동 후 git clone
 cd ~
+rm -rf boooooom  (추가, 기존 디렉터리 삭제)
 git clone https://github.com/checkCJY/boooooom.git
 
 # 3. 디렉터리 생성 확인
